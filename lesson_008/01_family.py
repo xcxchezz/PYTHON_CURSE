@@ -52,7 +52,7 @@ class House:
     def __str__(self):
         return 'денег в доме - {}, еды в доме  - {}, грязи в доме - {}'.format(self.money, self.food, self.dirt)
 
-class Husband(House):
+class Husband:
 
     def __init__(self, name):
         super().__init__()
@@ -92,7 +92,7 @@ class Husband(House):
 
 
 
-class Wife(House):
+class Wife:
 
     def __init__(self):
         pass
